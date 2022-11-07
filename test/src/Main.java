@@ -1,7 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-char x='7';
-int k=x - '0';
-        System.out.println(k);
+        int end = 10;
+        boolean test = false;
+        end=test?end:++end;
+        System.out.println(end);
+        int end2 = 10;
+        end2=test?end2:end2+1;
+        System.out.println(end2);
     }
 }
