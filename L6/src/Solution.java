@@ -9,6 +9,7 @@ class Solution {
         for (int i = 0; i < numRows; i++) {
             arrayList.add(new ArrayList<String>());
         }
+
         int j = 0;
         boolean up = true;
         for (int i = 0; i < s.length(); i++) {
